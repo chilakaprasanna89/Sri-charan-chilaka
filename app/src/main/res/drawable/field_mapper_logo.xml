@@ -1,0 +1,71 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Outer boundary of Deep Corporate Navy background -->
+    <path
+        android:pathData="M15,20 L50,10 L85,20 L85,80 L50,90 L15,80 Z"
+        android:fillColor="#1B365D"/>
+
+    <!-- Inside agricultural grid lines -->
+    <path
+        android:pathData="M25,22 L25,78 M35,20 L35,80 M45,18 L45,82 M55,18 L55,82 M65,20 L65,80 M75,22 L75,78"
+        android:strokeColor="#1500F2FE"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M15,30 L85,30 M15,45 L85,45 M15,60 L85,60 M15,75 L85,75"
+        android:strokeColor="#1500F2FE"
+        android:strokeWidth="1"/>
+
+    <!-- Cyberspace mapped boundary polygon -->
+    <path
+        android:pathData="M30,55 L45,30 L75,35 L68,70 L40,75 Z"
+        android:strokeColor="#00F2FE"
+        android:strokeWidth="3.5"
+        android:strokeLineJoin="round"
+        android:fillColor="#1A00FFCC"/>
+
+    <!-- Pulse nodes on the polygon vertices -->
+    <group>
+        <!-- Vertex 1 -->
+        <path
+            android:pathData="M30,55 M30,55 A2.5,2.5 0,1,1 29.9,55 Z"
+            android:fillColor="#00FFCC"/>
+        <!-- Vertex 2 -->
+        <path
+            android:pathData="M45,30 M45,30 A2.5,2.5 0,1,1 44.9,30 Z"
+            android:fillColor="#00FFCC"/>
+        <!-- Vertex 3 -->
+        <path
+            android:pathData="M75,35 M75,35 A2.5,2.5 0,1,1 74.9,35 Z"
+            android:fillColor="#00FFCC"/>
+        <!-- Vertex 4 -->
+        <path
+            android:pathData="M68,70 M68,70 A2.5,2.5 0,1,1 67.9,70 Z"
+            android:fillColor="#00FFCC"/>
+        <!-- Vertex 5 -->
+        <path
+            android:pathData="M40,75 M40,75 A2.5,2.5 0,1,1 39.9,75 Z"
+            android:fillColor="#00FFCC"/>
+    </group>
+
+    <!-- Glowing satellite signal indicator in center top -->
+    <path
+        android:pathData="M50,16 M50,16 A1.5,1.5 0,1,1 49.9,16 Z"
+        android:fillColor="#00FFCC"/>
+    <path
+        android:pathData="M46,14 A5,5 0 0,1 54,14"
+        android:strokeColor="#00F2FE"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+    <path
+        android:pathData="M42,11 A10,10 0 0,1 58,11"
+        android:strokeColor="#00F2FE"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"/>
+
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "SPA Field Mapper",
+  "description": "Professional Agritech field area mapper with Bluetooth pulse input and GPS tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
